@@ -1,0 +1,27 @@
+.btn{
+    font-size:1.8rem;
+    border-radius: 4px;
+    background-color:white;
+    color:hsl(208, 79%, 63%);
+    border:1px solid hsl(208, 79%, 63%);
+    margin:0.5rem 0;
+}
+
+.btn:hover{
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transform: scale(1.05);
+  background-color:hsl(208, 79%, 63%);
+  color:white;
+  transition:150ms ease-in-out;
+}
+
+.btn-play{
+    padding:1rem 7.75rem;
+}
+
+.btn-view{
+    padding:1rem;
+}

@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ebf4ff;
+}
+
+.card {
+  background-color: #94c6ff;
+  padding: 4rem 2rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.title {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+}
+
+.choices {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (10px)[2];
+      grid-template-rows: repeat(2, 10px);
+  -ms-grid-columns: (100px)[2];
+      grid-template-columns: repeat(2, 100px);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.choice-group {
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+}
+
+.choice-content {
+  color: #56a5eb;
+  font-size: 1.3rem;
+}
